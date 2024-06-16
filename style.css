@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+@media screen and (max-width: 1439px) {
+    .containerAll {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fondoContainer {
+        background-color: hsl(0, 0%, 8%);
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 305px;
+        height: 80vh;
+        margin: auto;
+        margin-top: 76px;
+        margin-bottom: 76px;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+
+    .container h2 {
+        margin: 0;
+        color: hsl(0, 0%, 100%);
+    }
+
+    p {
+        color: hsl(0, 0%, 100%);
+    }
+
+    p:hover {
+        color: hsl(0, 0%, 8%);
+    }
+
+    .containerImg {
+        width: 100px; /* Ajusta según sea necesario */
+        height: 100px; /* Ajusta según sea necesario */
+        background-image: url('./assets/images/avatar-jessica.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: 0px auto; /* Centrar el contenedor de imagen */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border-radius: 50%; /* Hacer la imagen redonda */
+    }
+
+    .dato h1 {
+        margin: 0px;
+    }
+
+    .pais {
+        color: hsl(75, 94%, 57%);
+        margin-top: 10px;
+    }
+
+    .dato p {
+        margin-bottom: 35px;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 20%);
+        margin: 18px 25px;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .card:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .card p:hover{
+        color: black;
+    }
+
+    footer .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    footer .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .containerAll {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fondoContainer {
+        background-color: hsl(0, 0%, 8%);
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 12%);
+        width: 375px;
+        height: 80vh;
+        margin: auto;
+        margin-top: 76px;
+        margin-bottom: 76px;
+        border-radius: 10px;
+        padding-top: 10px;
+    }
+
+    .container h2 {
+        margin: 0;
+        color: hsl(0, 0%, 100%);
+    }
+
+    p {
+        color: hsl(0, 0%, 100%);
+    }
+
+    .containerImg {
+        width: 100px; /* Ajusta según sea necesario */
+        height: 100px; /* Ajusta según sea necesario */
+        background-image: url('./assets/images/avatar-jessica.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: 0px auto; /* Centrar el contenedor de imagen */
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border-radius: 50%; /* Hacer la imagen redonda */
+    }
+
+    .dato h1 {
+        margin: 0px;
+    }
+
+    .pais {
+        color: hsl(75, 94%, 57%);
+        margin-top: 10px;
+    }
+
+    .dato p {
+        margin-bottom: 35px;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 20%);
+        margin: 18px 25px;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .card:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+        
+    }
+    .card p:hover{
+        color: hsl(0, 0%, 8%);
+    }
+
+    .card p {}
+
+    footer .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    footer .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
